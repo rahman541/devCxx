@@ -6,6 +6,6 @@ npm i
 cd lib
 node-gyp rebuild
 cd ..
-# Copy lib/Release/math.dll
+# Copy build/Release/math.dll file to this dir.
 node index.js
 ```
